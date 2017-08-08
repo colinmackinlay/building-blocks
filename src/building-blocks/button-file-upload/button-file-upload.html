@@ -1,0 +1,29 @@
+<!-- Change the `data-field` of file inputs and `name` of text and submit fields for multiple file upload button groups-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<div class="small-4 columns">
+    <div class="input-group">
+        <div class="input-group-button">
+            <label class="button" style="line-height: 2.2">Choose
+                <input type="file" class="show-for-sr" data-select="file-upload" data-field="file-upload-1">
+            </label>
+        </div>
+        <input type="text" name="file-upload-1" class="input-group-field" placeholder="Upload file" readonly/>
+        <div class="input-group-button">
+            <button class="button success" type="submit" name="file-upload-1-submit" disabled>Upload</button>
+        </div>
+    </div>
+</div>
+
+<div class="small-4 columns">
+    <div class="input-group">
+        <div class="input-group-button">
+            <label class="button" style="line-height: 2.2"><i class="fa fa-file"></i>
+                <input type="file" class="show-for-sr" data-select="file-upload" data-field="file-upload-2">
+            </label>
+        </div>
+        <input type="text" name="file-upload-2" class="input-group-field" placeholder="Upload file" readonly/>
+        <div class="input-group-button">
+            <button class="button success" type="submit" name="file-upload-2-submit" disabled><i class="fa fa-check"></i></button>
+        </div>
+    </div>
+</div>

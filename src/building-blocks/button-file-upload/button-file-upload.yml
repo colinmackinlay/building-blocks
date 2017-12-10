@@ -1,0 +1,13 @@
+name: "File Upload Button"
+tags:
+  - file
+  - button
+category: control
+description: A file upload button group to show the file selected and then submt it.
+versions:
+  - 6.3.0
+  - 6.3.1
+  - 6.4.0
+author:
+  github: colinmackinlay
+  name: Colin Mackinlay
